@@ -56,7 +56,7 @@ namespace Main_namespace
                 }
             }
             SaveGameSaves();
-            СhangeLanguage(language ?? "");
+            СhangeLanguage(language ??);
             Console.Clear();
             Console.WriteLine(SCm[(int)SC.Main]);
         }
