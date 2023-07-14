@@ -56,7 +56,7 @@ namespace Main_namespace
                 }
             }
             SaveGameSaves();
-            СhangeLanguage(language ??);
+            СhangeLanguage(language);
             Console.Clear();
             Console.WriteLine(SCm[(int)SC.Main]);
         }
@@ -198,7 +198,7 @@ namespace Main_namespace
                                         break;
                                     default:
                                     case "en":
-                                        Console.WriteLine(" you don't have enough stones");
+                                        Console.WriteLine(" you don't have enough stones ");
                                         break;
                                 }
                             }
