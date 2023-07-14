@@ -36,6 +36,6 @@
     public enum Currency
     {
         Stones = 0,
-        Gold = 1,
+        Gold = 1
     }
 }
