@@ -27,7 +27,7 @@ namespace Main_namespace
 
         public static void Start()
         {
-            СhangeLanguage(language ?? "");
+            СhangeLanguage(language);
             LoadGameSaves();
             if (language == "" || language == null)
             {
